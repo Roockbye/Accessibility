@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page connexion du blog">
+    <title>login.html</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <!-- Lien vers la page d'accueil -->
+                <a href="index.html">
+                    <img src="./img/toinp.avif" alt="Logo du Toinp">
+                </a>
+            </div>
+            <p>Le Toinp</p>
+        </div>
+    </header>  
+
+    <div class="login-container">
+        <form class="login-form" action="index.html" method="get">
+            <h1>Connexion</h1>
+            
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input aria-label="Email" autocomplete="email" type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Mot de passe :</label>
+                <input aria-label="Mot de passe" autocomplete="password" type="password" id="password" name="password" required>
+            </div>
+            
+            <button type="submit">Connexion</button>
+        </form>
+    </div>    
+
+    <footer>
+        <p>© 2024 Le Toinp. Tous droits réservés.</p>
+        <nav>
+            <ul>
+                <li><a href="/mentions-legales">Mentions presque légales</a></li>
+                <li><a href="/politique-de-confidentialite">Politique de non confidentialité</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
